@@ -1,0 +1,100 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	background-image: url('../images/abs-1850926_640.jpg');
+	background-size: cover;
+	font-family: 'Baloo Bhai 2', cursive;
+
+}
+.left{
+	/*border: 2px solid red;*/
+	float: left;
+	margin-left: 34px;
+	padding: 10px;
+
+	/*width:23px;*/
+	/*background-image: url('../images/gym-logo1.png');*/
+
+}
+.left img{
+	width: 100px;
+
+}
+.right{
+	/*border: 2px solid yellow;*/
+	float: right;
+	margin-right: 34px;
+	margin-top: 12px;
+
+}
+.center{
+	/*border: 2px solid green;*/
+	float:left;
+	margin-left: 480px;
+	display: inline-block;
+	width:33%;
+	margin-top: 12px;
+
+
+}
+.navbar li{
+	display: inline-block;
+
+}
+.navbar li a{
+	padding: 15px;
+	color: white;
+	text-decoration: none;
+	font-size: 20px;
+	
+}
+.navbar li a:hover , .navbar li a:active{
+	text-decoration: underline;
+	color: grey;
+}
+header{
+	
+	color: white;
+}
+.btn{
+	color: white;
+	margin 0px 9px;
+	padding:5px;
+	background-color: black;
+	border-radius: 20px;
+	border:1px solid white;
+	cursor: pointer;
+	font-family: 'Baloo Bhai 2', cursive;
+}
+.btn:hover{
+	background-color:  grey;
+
+}
+#callbtn{
+	margin-right: 5px;
+}
+.container{
+	margin:50px 50px;
+	padding:60px;
+	border-radius: 3px;
+	/*border:2px solid black;*/
+	clear: both;
+	width: 33%;
+	color: white;
+}
+.formb input{
+	padding: 10px;
+	border-radius: 4px;
+	/*color: purple;*/
+	margin: 10px 10px;
+
+}
+#sub{
+	display: inline-block;
+	width: 100%;
+	margin: auto;
+
+
+}

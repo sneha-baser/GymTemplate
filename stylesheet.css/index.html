@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>The Faadu Gym</title>
+</head>
+<body>
+	<header class="header">
+		<div class="left">
+			<img src="../images/gym-logo1.png">
+
+		</div>
+		<div class="right">
+			<button class="btn" id="callbtn">Call us</button>
+			<button class="btn" id="emailbtn">Email us</button>
+			
+		</div>
+		<div class="center">
+			<nav class="navbar">
+				<ul>
+					<li><a href="#">Home</a></li>
+					<li><a href="#">Services</a></li>
+					<li><a href="#">About us</a></li>
+					<li><a href="#">Contact us</a></li>
+				</ul>
+			</nav>
+			
+		</div>
+	</header>
+	<div class="container">
+	<form action="noaction.php" class="formb">
+		<label class="formb">Enter your name &nbsp;&nbsp;&nbsp;&nbsp;</label>
+		<input type="text" name="iname" placeholder="sneha" >
+		<br>
+		<label>Enter your age &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+		<input type="text" name="iage" placeholder="15" >
+		<br>
+		<label>Occupation &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </label>
+		<input type="radio" name="occupation">student &nbsp;&nbsp;&nbsp;</input>
+				<input type="radio" name="occupation">working-professional</input>
+				<br>
+				<label>Mobile no &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+				<input type="Mobile" name="imno">
+				<br>
+				<label>Time-slot &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+				<select id="times" name="itimes">
+					<option value="7:00 am - 8:30 am">7:00 am - 8:30 am</option>
+					<option value="9:00 am - 10:30 am">9:00 am - 10:30 am</option>
+					<option value="3:00 am - 4:30 am">3:00 am - 4:30 am</option>
+					<option value="5:00 am - 7:30 am">5:00 am - 7:30 am</option>
+					
+				</select>
+				<br>
+				<br>
+				<input type="submit"  class= "btn" name="submitbtn" id="sub" >
+	</form>
+	</div>
+</body>
+</html>
+.....
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Best online foodMeal</title>
+
+</head>
+<body>
+	<nav class="navbar">
+		<div class="logo">
+			<img src="images/fastfoodDelivery.png">
+		</div>
+		
+		<ul class="list">
+			<li class="item"><a href="#">Home</a></li>
+			<li class="item"><a href="#">services</a></li>
+			<li class="item"><a href="#">About us</a></li>
+			<li class="item"><a href="#">Contact us</a></li>
+		</ul>
+
+	</nav>
+</body>
+</html>
+....
+*{
+	padding: 0px;
+	width: 0px;
+
+}
+/*Navigation Bar*/
+/*navigation -bar:logo*/
+.logo{
+	border: 2px solid green;
+	background:red;
+
+}
+.navbar{
+	border: 2px solid red;
+}
+.list{
+	display: flex;
+}
